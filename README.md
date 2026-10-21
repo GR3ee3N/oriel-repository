@@ -2,8 +2,9 @@
 
 The Kodi install source for [Oriel](https://github.com/GR3ee3N/Oriel). The
 repository add-on installs and updates Oriel and its dependencies,
-[Oriel framework](https://github.com/GR3ee3N/oriel-framework) and
-[Oriel WebKit](https://github.com/GR3ee3N/oriel-webkit), from their latest
+[Oriel framework](https://github.com/GR3ee3N/oriel-framework),
+[Oriel WebKit](https://github.com/GR3ee3N/oriel-webkit) and
+[Oriel display](https://github.com/GR3ee3N/oriel-display), from their latest
 GitHub releases.
 
 Oriel targets Amlogic devices with a Mali GPU running CoreELEC 22 (Kodi 22,

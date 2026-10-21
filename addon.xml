@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="repository.oriel" name="Oriel repository" version="1.0.0" provider-name="Oriel">
+<addon id="repository.oriel" name="Oriel repository" version="1.1.0" provider-name="Oriel">
   <extension point="xbmc.addon.repository" name="Oriel repository">
     <!-- Kodi 22 and later: xbmc.addon is 21.90.x in its pre-releases. -->
     <dir minversion="21.90.0">
@@ -12,6 +12,12 @@
       <info compressed="false">https://github.com/GR3ee3N/oriel-framework/releases/latest/download/addons.xml</info>
       <checksum verify="sha256">https://github.com/GR3ee3N/oriel-framework/releases/latest/download/addons.xml.sha256</checksum>
       <datadir zip="true">https://github.com/GR3ee3N/oriel-framework/releases/latest/download/</datadir>
+      <hashes>sha256</hashes>
+    </dir>
+    <dir minversion="21.90.0">
+      <info compressed="false">https://github.com/GR3ee3N/oriel-display/releases/latest/download/addons.xml</info>
+      <checksum verify="sha256">https://github.com/GR3ee3N/oriel-display/releases/latest/download/addons.xml.sha256</checksum>
+      <datadir zip="true">https://github.com/GR3ee3N/oriel-display/releases/latest/download/</datadir>
       <hashes>sha256</hashes>
     </dir>
     <dir minversion="21.90.0">

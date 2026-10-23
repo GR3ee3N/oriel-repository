@@ -7,18 +7,22 @@ repository add-on installs and updates Oriel and its dependencies,
 [Oriel display](https://github.com/GR3ee3N/oriel-display), from their latest
 GitHub releases.
 
-Oriel targets Amlogic devices with a Mali GPU running CoreELEC 22 (Kodi 22,
-64-bit). 
-
 ## Status
 
 > [!WARNING]
-> **Oriel is highly experimental.** It is a personal project, tested on only
-> a few boxes, and it relies on CoreELEC and Kodi internals that are outside its control.
-> Any update to those can break it, and it could stop working at any time.
-> Use it at your own risk.
+> **Experimental software.** CoreELEC or Kodi updates can break it.
 
 No support is provided.
+
+## Hardware
+
+Requires an Amlogic device with a Mali GPU running CoreELEC 22
+(Kodi 22, 64-bit). Tested on:
+
+- Ugoos AM9 Pro (S905X5M, Mali-G310)
+- Ugoos AM6B+ (S922X, Mali-G52)
+
+Other devices and CoreELEC versions have not been tested.
 
 ## Installation
 
@@ -27,6 +31,5 @@ No support is provided.
    `https://gr3ee3n.github.io/oriel-repository/` and name it **Oriel**.
 3. Go to **Add-ons → Install from zip file → Oriel** and select
    `repository.oriel.zip`.
-4. Go to **Add-ons → Install from repository → Oriel repository → Video add-ons**
-   and select **Oriel**.
-   
+4. Go to **Add-ons → Install from repository → Oriel repository → Video add-ons**,
+   select **Oriel**, then **Install**. Kodi also installs its dependencies.

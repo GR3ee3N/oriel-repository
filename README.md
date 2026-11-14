@@ -1,7 +1,8 @@
 # Oriel repository
 
-The Kodi install source for [Oriel](https://github.com/GR3ee3N/Oriel). The
-repository add-on installs and updates Oriel and its dependencies,
+The Kodi install source for [Oriel](https://github.com/GR3ee3N/Oriel), a Plex
+client, and Dormer, a Jellyfin client. The repository add-on installs and
+updates both apps and their dependencies,
 [Oriel framework](https://github.com/GR3ee3N/oriel-framework),
 [Oriel WebKit](https://github.com/GR3ee3N/oriel-webkit) and
 [Oriel display](https://github.com/GR3ee3N/oriel-display), from their latest
@@ -32,4 +33,5 @@ Other devices and CoreELEC versions have not been tested.
 3. Go to **Add-ons → Install from zip file → Oriel** and select
    `repository.oriel.zip`.
 4. Go to **Add-ons → Install from repository → Oriel repository → Video add-ons**,
-   select **Oriel**, then **Install**. Kodi also installs its dependencies.
+   select **Oriel** or **Dormer**, then **Install**. Kodi also installs
+   their dependencies.

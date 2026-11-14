@@ -35,7 +35,7 @@
     </dir>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">Updates for Oriel</summary>
+    <summary lang="en_GB">Updates for Oriel and Dormer</summary>
     <platform>all</platform>
     <source>https://github.com/GR3ee3N/oriel-repository</source>
     <website>https://github.com/GR3ee3N/Oriel</website>
